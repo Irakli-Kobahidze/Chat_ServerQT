@@ -20,12 +20,4 @@ https://github.com/Irakli-Kobahidze/Chat__ClientQT
 
 Технологии:
 
-Язык — C++17. Сеть — сокеты POSIX (TCP/IP), опрос. База данных — MySQL, MySQL Connector/C++. Графический интерфейс — Qt6. Сборка — CMake, qmake. Хеширование — SHA-1 (собственная реализация). Платформа — Linux.
-
-Установка и запуск
-
-
-Установка зависимостей (Ubuntu/Debian)
-sudo apt update sudo apt install build-essential cmake qt6-base-dev libmysqlcppconn-dev mysql-server Настройка базы данных: CREATE DATABASE bd; CREATE USER 'dbeaver'@'localhost' IDENTIFIED BY 'dbeaver123'; GRANT ALL PRIVILEGES ON bd.* TO 'dbeaver'@'localhost'; FLUSH PRIVILEGES;
-
-Сборка: скопируйте директорию в QT: https://github.com/Irakli-Kobahidze/Chat_ServerQT Запустите.
+Язык — C++17. Сеть — сокеты POSIX (TCP/IP), опрос. База данных — MySQL, MySQL Connector/C++. Графический интерфейс — Qt6. Сборка — CMake, qmake. Хеширование — SHA-1 (собственная реализация).
